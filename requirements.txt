@@ -1,0 +1,9 @@
+pandas
+transformers
+beautifulsoup4
+regex
+sentencepiece
+requests
+torch 
+streamlit-lottie
+streamlit
