@@ -1,2 +1,2 @@
 # BYTE_BUSTERS
-Sentiment Analysis on Text Summarization of financial data and stocks
+Sentiment Analysis on Summarized text of financial data and stocks
