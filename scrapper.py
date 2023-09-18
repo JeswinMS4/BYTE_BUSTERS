@@ -121,7 +121,7 @@ def scrap():
                 input_ids = tokenizer.encode(
                     text, return_tensors='pt', max_length=512, truncation=True)
                 output = model.generate(
-                    input_ids, max_length=55, num_beams=5, early_stopping=True)
+                    input_ids, max_length=55, num_beams=3, early_stopping=True)
                 summary = tokenizer.decode(output[0], skip_special_tokens=True)
                 summaries.append(summary)
 
